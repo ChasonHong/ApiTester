@@ -1,0 +1,84 @@
+	   *{
+	        margin:0px; 
+			padding:0px;	
+		}
+		body{
+			background-color:#f5f5f5;
+		}
+		.clear-padding{
+			padding:0px;
+		}
+		.clear-margin{
+			margin:0px;
+		}
+		.api-header{
+			background-color:#f05759;
+			border-radius:0px;
+			padding:10px;
+		}	
+		.api-header .navbar-nav a{
+			color:#ffffff;
+			font-size:15px ;
+			font-weight:bold;
+			font-family:"微软雅黑";
+			text-decoration:none;
+		}	
+		.api-header .navbar-header a{
+			color:#ffffff;
+			font-size:23px ;
+			font-weight:bold;
+			text-decoration:none;
+			font-family:"微软雅黑";
+		}
+	  
+		.api-header .navbar-nav a:hover{
+			text-decoration:none;
+			cursor:pointer;
+			background-color:transparent;
+		}
+		.api-header .navbar-nav li{
+			margin-left:15px;
+		}
+		
+		.api-center{
+			margin-top:-10px;
+			_margin-top:-3px;
+			height:1100px;
+
+		}
+		.api-content-index{
+			height:900px;
+			background-color:#fff;
+			border:1px solid #f0f0f0;
+	        border-radius:3px;
+			overflow:auto;
+			font-size:13px;
+		
+		}
+		.api-content-index-view{
+			height:1000px;
+			background-color:white ;
+			border:1px solid white;	
+		}	
+		.content-menu{
+			display:none;	
+		}
+		.content-menu li:hover{
+			background-color:#9BCD9B;
+			cursor:pointer;
+		}
+		/*抵消bootstrap样式*/
+		.api-header .nav>li>a:focus, .nav>li>a:hover{
+			background-color:transparent;
+		}
+		.api-header .nav li.active{
+			background-color:#f0f0f0;
+			border-radius:3px;
+		}
+		.api-header .nav li.active a{
+			color:#666666;
+		}
+		
+		.api-center  .api-content-index div.caption{
+			width:100%;
+		}
